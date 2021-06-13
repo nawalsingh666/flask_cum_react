@@ -1,38 +1,38 @@
 .App {
   text-align: center;
+  font-family: Tahoma,sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#tic_tac_toe_arena{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bisque_color{
+  background-color: bisque;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gray_color{
+  background-color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+.green_color{
+  background-color: lawngreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td{
+  font-size: xxx-large;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 2px;
 }
+
+#reset_game{
+  font-size: x-large;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+}
+
